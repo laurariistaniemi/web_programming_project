@@ -1,0 +1,29 @@
+:root {
+  body {
+    background-color: rgb(184, 217, 247);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.flex-child {
+  padding: 1%;
+  text-align: center;
+  box-sizing: border-box;
+
+}  
+
+
+.flex-child:first-child {
+  margin-right: 5px;
+  margin-left: 5px;
+} 
+
+
+}

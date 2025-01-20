@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content:flex-start; 
+  gap: 10px;               
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  border: 2px solid transparent;  
+  border-radius: 8px;             
+  transition: all 0.3s ease;      
+}
+
+.tabs a:hover {
+  background-color: #007BFF;
+  color: #fff;
+  border-color: #007BFF;
+}
+
+.tabs a.active {
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+}
+
+.App {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
